@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Temporizados com músicas diversas sons relaxantes estimulantes">
+  <title>Temporizador Stage 5 - Desafio</title>
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main> <!--Conteúdo-->
+    <div class="timer">
+      <div class="time"> <!--Minutos, segundos e botões-->
+        <span id="minutes">25</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+      </div>
+      
+      <div class="controls">
+        <button id="play">
+          <img src="./icons/play.png" alt="Botão de play">
+        </button>
+        <button id="stop">
+          <img src="./icons/stop.png" alt="Botão de Stop">
+        </button>
+        <button id="increase">
+          <img src="./icons/increase.png" alt="Botão de mais">
+        </button>
+        <button id="decrease">
+          <img src="./icons/decrease.png" alt="Botão de menos">
+        </button>
+      </div>
+    </div>
+
+    
+    <div class="sons">
+      <div class="card1">
+        <img id="icon1" src="./icons/tree.png" alt="Ícone de uma árvore desenhada em preto">
+      </div>
+      <div class="card2 selected">
+        <img id="icon2 selected" src="./icons/rain.png" alt="Ícone de uma nuvem com chuva em branco">
+      </div>
+      <div class="card3">
+        <img id="icon3" src="./icons/city.png" alt="Ícone de uma construção semelhante à um comércio em preto">
+      </div>
+      <div class="card4">
+        <img id="icon4" src="./icons/fire.png" alt="Ícone de um sinal de fogo em preto">
+      </div>
+    </div>
+
+  </main>
+
+</body>
+</html>
